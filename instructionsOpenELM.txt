@@ -7,5 +7,5 @@
 
 https://huggingface.co/apple/OpenELM-270M/blob/main/generate_openelm.py
 
-python generate_openelm.py --model model --hf_access_token [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] --prompt 'Once upon a time there was' --generate_kwargs repetition_penalty=1.2 
+python generate_openelm.py --model model --hf_access_token [hf_xxxxxxxxxxxxxxxxxxxxxx] --prompt 'Once upon a time there was' --generate_kwargs repetition_penalty=1.2 
 
