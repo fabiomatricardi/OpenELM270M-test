@@ -1,0 +1,11 @@
+➜ python -m venv venv
+➜ venv\Scripts\activate
+(venv) ➜ OpenELM-270M ⚡                                                                                               
+➜ pip pip install transformers==4.40.2 streamlit==1.24.0
+➜ pip install torch torchvision torchaudio
+
+
+https://huggingface.co/apple/OpenELM-270M/blob/main/generate_openelm.py
+
+python generate_openelm.py --model model --hf_access_token [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] --prompt 'Once upon a time there was' --generate_kwargs repetition_penalty=1.2 
+
