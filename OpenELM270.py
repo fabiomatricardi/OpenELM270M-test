@@ -13,11 +13,6 @@ import torch
 
 from transformers import AutoTokenizer, AutoModelForCausalLM
 
-'''
-from huggingface_hub import login
-login(token='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')
-'''
-
 def generate(
     prompt: str,
     model: Union[str, AutoModelForCausalLM],
