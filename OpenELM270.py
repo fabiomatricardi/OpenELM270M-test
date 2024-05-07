@@ -224,7 +224,7 @@ if __name__ == '__main__':
         print('\033[0m')
         prompt = input('> ')
         if "quit!" in prompt.lower():
-            print("\033[0mBYE BYE!")
+            print("\033[92;1mBYE BYE!")
             break   
         else:
             #args = openelm_generate_parser()
@@ -235,7 +235,7 @@ if __name__ == '__main__':
                 device='cpu',
                 max_length=350,
                 #assistant_model=args.assistant_model,
-                generate_kwargs={'repetition_penalty': 1.3, 'temperature':0.1},
+                generate_kwargs={'repetition_penalty': 1.2, 'do_sample':True,'temperature':0.1},
                 #hf_access_token=args.hf_access_token,
             )
             print_txt = (
