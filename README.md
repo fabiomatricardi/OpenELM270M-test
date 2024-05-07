@@ -71,3 +71,22 @@ tokenizer.json
 tokenizer.model
 tokenizer_config.json  
 ```
+
+---
+
+### Extra bonus
+If you want to test also the 450M anad the 1.1B parameters model, here how to download the weights and tokenizer
+```
+huggingface-cli download meta-llama/Llama-2-7b-hf --include "*token*" --local-dir model450
+huggingface-cli download apple/OpenELM-450M-Instruct --local-dir model450
+
+huggingface-cli download meta-llama/Llama-2-7b-hf --include "*token*" --local-dir model1B
+huggingface-cli download apple/OpenELM-1_1B-Instruct --local-dir model1B
+```
+
+And here the files to use in python
+> python OpenELM1B.py
+
+or
+
+> pythonOpenELM450.py
