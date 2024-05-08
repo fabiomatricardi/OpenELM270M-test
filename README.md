@@ -1,9 +1,10 @@
 # OpenELM270M-test
 Repo of the code from the Medium article
 
-This model does not have an offiial Transformers pipeline, as far as  I know.
+<img src='https://github.com/fabiomatricardi/OpenELM270M-test/raw/main/applebanner.png' width=800><br>
+This model does not have an official Transformers pipeline, as far as  I know.
 
-The model weights are in the official Apple Repository, but this model uses the Llama2 tokenizer
+The model weights are in the HF Apple Repository, but this model uses the Llama2 tokenizer
 
 so...
 
@@ -90,3 +91,37 @@ And here the files to use in python
 or
 
 > python OpenELM450.py
+
+
+---
+
+## Run with Streamlit 
+Provided here 3 different python files.
+
+First install the dependency
+```
+pip install streamlit==1.26.0
+```
+
+
+<img src='https://github.com/fabiomatricardi/OpenELM270M-test/raw/main/LogoOpenELM270-instruct.png' height=100><br>
+```
+streamlit run st-Openelm270M.py
+```
+
+<img src='https://github.com/fabiomatricardi/OpenELM270M-test/raw/main/LogoOpenELM450-instruct.png' height=100><br>
+```
+streamlit run st-Openelm450M.py
+```
+
+<img src='https://github.com/fabiomatricardi/OpenELM270M-test/raw/main/LogoOpenELM1.1b-instruct.png' height=100><br>
+```
+streamlit run st-Openelm1.1B.py
+```
+
+
+
+
+
+
+
