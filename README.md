@@ -96,6 +96,10 @@ or
 ---
 
 ## Run with Streamlit 
+
+<img src='https://github.com/fabiomatricardi/OpenELM270M-test/raw/main/OpenELM270M.gif' width=800>
+
+
 Provided here 3 different python files.
 
 First install the dependency
@@ -118,6 +122,8 @@ streamlit run st-Openelm450M.py
 ```
 streamlit run st-Openelm1.1B.py
 ```
+
+
 
 
 
